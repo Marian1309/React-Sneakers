@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+
+	font-size: 14px;
+	line-height: 1.5;
+	scroll-behavior: smooth;
+	text-rendering: optimizespeed;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+
+	color: black;
+}
+
+button {
+	cursor: pointer;
+}
+
+nav,
+footer,
+header,
+aside,
+main {
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}

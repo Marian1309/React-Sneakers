@@ -1,0 +1,62 @@
+.card {
+	width: 220px;
+	margin-bottom: 30px;
+	padding: 30px;
+
+	transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+	border: 1px solid #f3f3f3;
+	border-radius: 40px;
+
+	h5 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.sneak {
+		position: relative;
+		top: -13px;
+	}
+
+	b {
+		font-size: 14px;
+	}
+
+	span {
+		text-transform: uppercase;
+
+		opacity: 0.5;
+
+		font-size: 16px;
+	}
+
+	.favorite {
+		position: absolute;
+		z-index: 1;
+
+		cursor: pointer;
+	}
+
+	&:hover {
+		transform: translateY(-5px);
+
+		box-shadow: 0 20px 35px rgb(0 0 0 / 7%);
+	}
+}
+
+.cardBootom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: 15px;
+
+	button {
+		width: 32px;
+		height: 32px;
+
+		border: 0;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+}
